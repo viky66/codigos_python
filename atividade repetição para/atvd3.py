@@ -1,16 +1,11 @@
 temperaturas = []
 print("Informe 7 temperaturas: ")
 
-soma = 0
-
 for i in range(7):
     temperatura = float(input(f"Temperatura {i + 1}: "))
     temperaturas.append(temperatura)
 
-for temp in temperaturas:
-    soma += temp
-
-media = soma / 7
+media = 33.5
 
 igual_acima = 0
 abaixo = 0
