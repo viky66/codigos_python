@@ -1,9 +1,6 @@
 a = int(input("Digite o primeiro número inteiro positivo (a): "))
 b = int(input("Digite o segundo número inteiro positivo (b): "))
 
-if a > b:
-    a, b = b, a
-
 contador = 0
 
 for num in range(a, b + 1):
