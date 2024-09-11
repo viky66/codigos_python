@@ -6,4 +6,4 @@ for _ in range(10):
     valores[resultado] += 1
 
 for valor, quantidade in valores.items():
-    print(f"o valor {valor} foi sorteado {quantidade} vezes")
+    print(f"O valor {valor} foi sorteado {quantidade} vezes")
